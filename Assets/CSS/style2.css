@@ -1,0 +1,24 @@
+.root {
+    width: 100w;
+    height: 100vh;
+    background-image: linear-gradient(315deg, #bc3669, #13f0a3);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.4fr 2fr 0.4fr;
+  }
+  .roots {
+    width: 100w;
+    height: 250vh;
+    background: azure;
+    color: rgb(16, 16, 16);
+  }
+  header nav ul {
+    list-style-type: none;
+  display: inline-block;
+  }
+  .contenu{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 0.5 fr 0.5 fr 0.5fr;
+    justify-content: left;
+  }
